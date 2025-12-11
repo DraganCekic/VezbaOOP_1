@@ -10,15 +10,11 @@ namespace Zadatak_1
 {
     internal class Automobil
     {
-         
-
-        public string Marka {  get; set; }
+     public string Marka {  get; set; }
      public string Model { get; set; }
      public int Godiste { get; set; }
      public int MaxBrzina { get; set; }
      public int TrenutnaBrzina { get; set; }
-        
-     
      public string Boja { get; set; }
      
      public Automobil(string marka,string model,int godiste, int maxBrzina,int trenutnaBrzina, string boja)
