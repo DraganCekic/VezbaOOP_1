@@ -11,11 +11,11 @@ namespace Zadatak_1
         static void Main(string[] args)
         {
 
-            Automobil a1 = new Automobil("Seat","Leon",2012,190,150,"Bela");
-            Automobil a2 = new Automobil("Bmw", "M5", 2020, 270, 260, "Crna");
+            Automobil a1 = new Automobil("Seat", "Leon", "Bela", 2012, 190, 150);
+            Automobil a2 = new Automobil("Bmw", "M5", "Crna", 2020,280,270);
+            
             a1.IspisiAtribute();
-
-
+            
             a2.Ubrzaj();
             a2.Ubrzaj();
             a2.IspisiAtribute();
