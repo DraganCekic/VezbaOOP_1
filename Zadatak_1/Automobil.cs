@@ -12,17 +12,18 @@ namespace Zadatak_1
     {
      public string Marka {  get; set; }
      public string Model { get; set; }
+     public string Boja { get; set; }
      public int Godiste { get; set; }
      public int MaxBrzina { get; set; }
      public int TrenutnaBrzina { get; set; }
-     public string Boja { get; set; }
+   
      
-     public Automobil(string marka,string model,int godiste, int maxBrzina,int trenutnaBrzina, string boja)
+     public Automobil(string marka,string model,string boja, int godiste, int maxBrzina, int trenutnaBrzina)
         {
             this.Marka = marka;
             this.Model = model;
-            this.Godiste = godiste;
             this.Boja = boja;
+            this.Godiste = godiste;
             this.MaxBrzina = maxBrzina;
             this.TrenutnaBrzina = trenutnaBrzina;
            
